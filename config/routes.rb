@@ -1,10 +1,7 @@
 Rails.application.routes.draw do
-  get 'static/home'
-
-  get 'static/about'
 
   resources :recipes
 
-  root 'static#home'
+  root 'recipes#index'
   get '/about', to: 'static#about'
 end

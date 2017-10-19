@@ -3,6 +3,8 @@ class RecipesController < ApplicationController
 
   # GET /recipes
   # GET /recipes.json
+
+  # Sets Recipes.all to a recipes instance variable
   def index
     @recipes = Recipe.all
   end
@@ -23,6 +25,7 @@ class RecipesController < ApplicationController
 
   # POST /recipes
   # POST /recipes.json
+  # Controller to be tested
   def create
     @recipe = Recipe.new(recipe_params)
 
