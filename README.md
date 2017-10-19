@@ -1,24 +1,6 @@
-# README
+# Rspec test
+The aim of this project is to practice Rspec.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rspec is a testing tool for Ruby.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This application is a very simple web application using on the basic functionality that comes out of the box when creating a new Rails app, which will be commented and tested with Rspec. 
